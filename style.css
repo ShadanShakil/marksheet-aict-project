@@ -1,0 +1,167 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+.logo > img {
+  height: 120px;
+}
+.main,
+.sub {
+  text-align: center;
+  padding: 5px;
+}
+.head1 {
+  text-align: center;
+  text-decoration: underline;
+  padding: 15px;
+}
+.body1 {
+  display: flex;
+  justify-content: space-between;
+}
+.body1 > .body-left {
+  display: flex;
+}
+.body1 > .body-left > .body-left-1,
+.body-left-2 {
+  padding: 50px 30px;
+  font-size: 1.1rem;
+}
+.body1 > .body-right > img {
+  height: 200px;
+  padding: 20px;
+}
+.barcode {
+  height: 80px;
+  width: 200px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+th {
+  background-color: #f2f2f2;
+}
+.bold {
+  font-weight: bold;
+}
+.end-text {
+  text-align: end;
+  padding-right: 20px;
+}
+#portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* From Uiverse.io by kamehame-ha */ 
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 15px;
+  background-color: #181717;
+  outline: 3px #181717 solid;
+  outline-offset: -3px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.button .text {
+  color: white;
+  font-weight: 700;
+  font-size: 1em;
+  transition: 400ms;
+}
+
+.button svg path {
+  transition: 400ms;
+}
+
+.button:hover {
+  background-color: transparent;
+}
+
+.button:hover .text {
+  color: #181717;
+}
+
+.button:hover svg path {
+  fill: #181717;
+}
+
+
+
+/* From Uiverse.io by alshahwan */ 
+/* From uiverse.io by @alshahwan */
+/* From uiverse.io by @alshahwan */
+button {
+  background-color: #fff;
+  border: 1px solid #0077b5;
+  padding: 5px;
+  position: relative;
+  width: 7.2em;
+  height: 2em;
+  transition: 0.5s;
+  font-size: 17px;
+  border-radius: 0.4em;
+}
+
+button p {
+  position: absolute;
+  top: 0.4em;
+  left: 1.2em;
+  margin: 0;
+  padding: 0;
+  transition: .5s;
+  color: #0077b5;
+}
+
+button svg {
+  position: absolute;
+  top: 0.45em;
+  right: 0.5em;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  transition: 0.5s;
+  height: 1em;
+  fill: #fff
+}
+
+button:hover p {
+  left: 0.6em;
+  color: #fff
+}
+
+button:hover svg {
+  opacity: 1;
+}
+
+button:hover {
+  background-color: #0077b5;
+}
